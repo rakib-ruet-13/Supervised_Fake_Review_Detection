@@ -1,4 +1,4 @@
-# Fake Review Detection using Supervised Machine Learning
+# A Supervised Machine Learning Approach to Detect Fake Online Reviews
 
 This repository contains the implementation of a supervised machine learning framework to detect fake online hotel reviews. Our goal is to identify deceptive (fake) reviews using content-based features and classify them using traditional ML algorithms.
 
@@ -73,3 +73,51 @@ Refer to the `results/` folder for detailed evaluation reports and confusion mat
 ├── main.py
 └── README.md
 
+
+
+# ⚙️ Setup & Installation
+
+To get started:
+
+```bash
+## Clone the repository
+git clone https://github.com/yourusername/fake-review-detection.git
+cd fake-review-detection
+
+## Create virtual environment and install dependencies
+python -m venv env
+source env/bin/activate  # On Windows: env\Scripts\activate
+pip install -r requirements.txt
+
+## (Optional) Install Empath and NLTK resources
+pip install empath
+python -m nltk.downloader all
+
+## Run the main script
+python main.py
+
+🧑‍💻 Authors
+Rakibul Hassan — rakibul.hassan@ece.ruet.ac.bd
+Md. Rabiul Islam — rabiul.cse@gmail.com
+
+## Citation
+If you use this work in your research, please cite the following:
+
+@inproceedings{hassan2020fake,
+  title={A Supervised Machine Learning Approach to Detect Fake Online Reviews},
+  author={Hassan, Rakibul and Islam, Md. Rabiul},
+  booktitle={2020 23rd International Conference on Computer and Information Technology (ICCIT)},
+  pages={1--6},
+  year={2020},
+  organization={IEEE}
+}
+
+
+## Future Work
+* Incorporate reviewer metadata (IP, rating behavior, frequency)
+
+* Test deep learning methods (LSTM, BERT)
+
+* Apply semi-supervised approaches when labeling is noisy
+
+* Expand dataset to other domains (product, movie, restaurant)
