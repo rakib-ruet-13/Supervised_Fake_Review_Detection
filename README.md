@@ -50,7 +50,7 @@ Model performance metrics include:
 - Recall
 - F1-score
 
-Refer to the `results/` folder for detailed evaluation reports and confusion matrices.
+The paper is given as a Pdf file named SMTDFOR.pdf
 
 ## 📦 Project Structure
 
