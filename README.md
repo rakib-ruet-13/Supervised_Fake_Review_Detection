@@ -38,7 +38,7 @@ Each review is labeled as:
 - `1` – Truthful
 - `0` – Deceptive
 
-> Note: The dataset is not included in this repository due to licensing restrictions. Please obtain it from [Ott et al.’s official website](http://myleott.com/op-spam.html).
+You can get the actual dataset from [Ott et al.’s official website](http://myleott.com/op-spam.html).
 
 ## 📊 Results
 
@@ -55,24 +55,15 @@ The paper is given as a Pdf file named SMTDFOR.pdf
 ## 📦 Project Structure
 
 ```plaintext
-.
-├── data/
-│   └── [Dataset files, organized into train/val/test]
-├── feature_extraction/
-│   ├── tfidf_extractor.py
-│   ├── empath_features.py
-│   └── sentiment_analysis.py
-├── models/
-│   ├── logistic_regression.py
-│   ├── naive_bayes.py
-│   └── svm_classifier.py
-├── results/
-│   └── evaluation_metrics.csv
-├── utils/
-│   └── preprocessing.py
-├── main.py
-└── README.md
-
+├── DataSet/ # Contains the original dataset files
+│ └── review_data_shuffled # Main shuffled dataset used in training
+├── processed_data.csv # Preprocessed version of the dataset
+├── processed_dataframe.csv # Additional processed data
+├── SMTDFOR.pdf # Published paper
+├── LICENSE
+├── README.md
+├── notebooks/
+│ ├── Fake online review classification Initial Data Processing.ipynb (The main file to run run the code)
 ```
 
 # ⚙️ Setup & Installation
