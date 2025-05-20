@@ -73,7 +73,7 @@ Refer to the `results/` folder for detailed evaluation reports and confusion mat
 ├── main.py
 └── README.md
 
-
+```
 
 # ⚙️ Setup & Installation
 
@@ -93,10 +93,10 @@ pip install -r requirements.txt
 pip install empath
 python -m nltk.downloader all
 
-## Run the main script
-python main.py
+## Run the Notebook file
+```
 
-🧑‍💻 Authors
+## 🧑‍💻 Authors
 Rakibul Hassan — rakibul.hassan@ece.ruet.ac.bd
 Md. Rabiul Islam — rabiul.cse@gmail.com
 
