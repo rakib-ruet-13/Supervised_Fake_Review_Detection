@@ -102,7 +102,7 @@ Md. Rabiul Islam — rabiul.cse@gmail.com
 
 ## Citation
 If you use this work in your research, please cite the following:
-
+```
 @inproceedings{hassan2020fake,
   title={A Supervised Machine Learning Approach to Detect Fake Online Reviews},
   author={Hassan, Rakibul and Islam, Md. Rabiul},
@@ -111,7 +111,7 @@ If you use this work in your research, please cite the following:
   year={2020},
   organization={IEEE}
 }
-
+```
 
 ## Future Work
 * Incorporate reviewer metadata (IP, rating behavior, frequency)
