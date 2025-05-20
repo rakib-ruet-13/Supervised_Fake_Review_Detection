@@ -98,20 +98,25 @@ python -m nltk.downloader all
 
 ## 🧑‍💻 Authors
 Rakibul Hassan — rakibul.hassan@ece.ruet.ac.bd
+<a href= https://scholar.google.com/citations?user=_UJn9VoAAAAJ&hl=en&oi=ao> Authors Google Scholar Profile</a>
 Md. Rabiul Islam — rabiul.cse@gmail.com
 
 ## Citation
 If you use this work in your research, please cite the following:
 ```
-@inproceedings{hassan2020fake,
-  title={A Supervised Machine Learning Approach to Detect Fake Online Reviews},
+@INPROCEEDINGS{9392727,
   author={Hassan, Rakibul and Islam, Md. Rabiul},
-  booktitle={2020 23rd International Conference on Computer and Information Technology (ICCIT)},
-  pages={1--6},
+  booktitle={2020 23rd International Conference on Computer and Information Technology (ICCIT)}, 
+  title={A Supervised Machine Learning Approach to Detect Fake Online Reviews}, 
   year={2020},
-  organization={IEEE}
-}
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Support vector machine classification;Machine learning;Task analysis;Information technology;Business;Online reviews;supervised learning;support vector machine;naive Bayes;logistic regression;Empath;TF-IDF;sentiment polarity.},
+  doi={10.1109/ICCIT51783.2020.9392727}}
+
 ```
+<a href= https://ieeexplore.ieee.org/abstract/document/9392727> Paper Link  </a>
 
 ## Future Work
 * Incorporate reviewer metadata (IP, rating behavior, frequency)
