@@ -98,7 +98,9 @@ python -m nltk.downloader all
 
 ## 🧑‍💻 Authors
 Rakibul Hassan — rakibul.hassan@ece.ruet.ac.bd
+
 <a href= 'https://scholar.google.com/citations?user=_UJn9VoAAAAJ&hl=en&oi=ao'> Authors Google Scholar Profile</a>
+
 Md. Rabiul Islam — rabiul.cse@gmail.com
 
 ## Citation
