@@ -81,8 +81,8 @@ To get started:
 
 ```bash
 ## Clone the repository
-git clone https://github.com/yourusername/fake-review-detection.git
-cd fake-review-detection
+git clone https://github.com/rakib-ruet-13/Supervised_Fake_Review_Detection.git
+cd Supervised_Fake_Review_Detection
 
 ## Create virtual environment and install dependencies
 python -m venv env
